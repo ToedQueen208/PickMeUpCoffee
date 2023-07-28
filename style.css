@@ -1,0 +1,131 @@
+html
+{
+    background-color: rgb(248,244,215,255);    
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: Tahoma, Calibri, Helvetica, Arial, sans-serif;
+}
+img
+{
+    height: auto;
+    max-width: 100%;
+}
+p 
+{    
+
+    display: flex;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+ 
+}
+#logoPic
+{    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+
+}
+h2
+{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+p
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navBar
+{
+    display: flex;
+    background-color:rgb(237, 207, 167);
+    justify-content: flex-end;
+     
+}
+#navBar a
+{
+    display: flex;
+  
+    padding-left: 10px;  
+    padding-right: 10px;
+    text-decoration: none;
+    align-items: center;
+    color: rgb(2, 2, 2);
+  
+    font-family: Tahoma, Calibri, Helvetica, Arial, sans-serif;
+    
+}
+
+#navBar p
+{
+    display: flex;
+   margin-right: auto;
+    padding-left: 10px;  
+    padding-right: 10px;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+#navBar a:hover
+{
+    color: rgb(40, 137, 234);
+}
+#brandLogo
+{
+    display: flex;
+    justify-content: flex-start;
+}
+#select
+{
+display: flex;
+font-weight: 400;
+background-color: rgb(240, 190, 126);
+}
+#flexContainer
+{
+
+ 
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    align-content:space-around;
+    padding:10px;
+}
+
+/*styling the images in the flex-container*/
+#flexContainer img 
+{
+    height:150px;
+    padding:10px;
+    border-style:none;
+    margin:5px;
+    background-color:rgb(241, 200, 146);
+
+}
+#flexContainer figure:hover 
+{
+    transform: scale(1. 2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+figure
+{
+    background-color:rgb(241, 200, 146);
+}
+figure figcaption{
+    display: flex;
+    justify-content: center;
+}
